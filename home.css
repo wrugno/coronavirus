@@ -1,0 +1,193 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: 007690;
+ 
+}
+
+header nav {
+    height: 70px;
+    background-color: #007690;
+    margin-top: 2rem !important;
+}
+header img {
+    width: 30%;
+}
+
+header nav .nav-item {
+    margin: 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+body {
+    background-image: url(./imagens/Virus_Ok.png),linear-gradient(#76B8CB -60%, #FFFFFF 140%);
+    background-size: 100%;
+    background-position: top 0px center;
+    background-repeat: no-repeat;
+    background-attachment: ;
+
+}
+
+.corona {
+    top: 5rem;
+    position: relative;
+}
+
+
+.gallery{
+    margin-top: 7rem;
+    display: flex;
+    color: #555;
+    margin-right: 3rem;
+    justify-content:center;
+    top: 10rem;
+
+}
+
+.gallery img{
+    right: 4rem;
+    top: 1.5rem;
+    position: relative;
+}
+
+.gallery-card1{
+    width: 22%;
+    text-align: center;
+    background-color: #F05B8F;
+}
+
+    .gallery-card1:hover{
+        background-color: rgb(202, 67, 114);
+    }
+
+.gallery-card2{
+    width: 22%;
+    text-align: center;
+    background-color: #DA4679;
+}
+
+    .gallery-card2:hover{
+        background-color: rgb(184, 43, 92);
+    }
+
+.gallery-card3{
+    width: 22%;
+    text-align: center;
+    background-color: #007690;
+}
+
+    .gallery-card3:hover{
+        width: 22%;
+        text-align: center;
+        background-color: #005a6e;
+    }
+
+.gallery-title1{
+    left: 3rem;
+    top: -2rem;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    position: relative;
+}
+
+.gallery-title2{
+    left: 3rem;
+    top: -2.2rem;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    position: relative;
+}
+
+.gallery-title3{
+    left: 5rem;
+    top: 2.1rem;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    position: relative;
+}
+
+
+footer {
+margin-top: 8rem;
+padding-bottom: 3rem;
+background-color: #0071bc;
+position: relative;
+}
+
+footer .logo {
+    margin-top: 3rem;
+    
+}
+
+footer .links h5 {
+    margin-top: 6rem;
+    color:#a2daff;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+footer .container a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    line-height: 3rem;
+    color: white;
+}
+
+footer .container a:hover {
+    color: #1ed760;
+}
+
+footer .container .social {
+    margin-top: 6rem;
+    letter-spacing: 1rem;
+    color: #1ed760;
+}
+
+footer .social .btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 60px;
+    border-radius: 10rem;
+    
+}
+footer .social .btn:hover {
+    
+} 
+
+footer #br {
+    margin-top: 5rem;
+
+}
+
+footer .d-flex {
+    margin-top: -1rem;
+
+    
+}
+
+footer .d-flex a {
+    font-size: 0.7rem;
+    color: rgb(141, 141, 141);
+
+}
+
+.rounded-pill path {
+    fill: white;
+
+}
+
+.rounded-pill path:hover {
+    fill: #1ed760;
+}
